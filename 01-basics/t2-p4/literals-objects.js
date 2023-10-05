@@ -182,5 +182,5 @@ export const getMovieKeys = () => {
  * @returns the infex of Fantasia value
  */
 export const getIndexOfFantasaiValue = () => {
-  return 
+  return Object.values(movie).indexOf("Fantasía");
 };
