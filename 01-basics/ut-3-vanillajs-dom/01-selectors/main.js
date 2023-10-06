@@ -7,12 +7,11 @@ for (let i = 0; i < paragraph.length; i++) {
   }
 
 let n = document.getElementsByName("nombre");
-let primerElemNombre = n[0];
-let valorNombre = primerElemNombre.nodeValue;
+console.log(n[0].name);
+
 
 let a = document.getElementsByName("apellido");
-
-console.log(primerElemNombre);
+console.log(a[0].name);
 
 let elemento1 = document.getElementsByTagName("li");
 for (let i = 0; i < elemento1.length; i++) {
